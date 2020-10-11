@@ -1,0 +1,175 @@
+html{
+    box-sizing: border-box;
+
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+h1{
+    color: rgb(68, 68, 68);
+    text-transform: lowercase;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.trescStrony
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 150%;
+}
+
+.tableCell
+{
+    border: 1px solid #adadad;
+    padding: 15px;
+    text-align: center;
+}
+
+.article__table
+{
+    border-collapse: collapse;
+    color: #363636;
+    width: 100%;
+    line-height: 25px;
+}
+
+.tableHeader
+{
+    background-color: #c7c7c7;
+    color: #000;
+}
+
+.caption
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.tableRow:nth-child(odd)
+{
+background-color: rgb(248, 248, 248);
+}
+.tableRow:hover
+{
+background-color: rgb(240, 240, 240);
+}
+
+.article__tableContainer
+{
+    overflow-x: auto;
+    margin: 60px 0;
+}
+
+.nav__menu
+{
+    list-style-type: none;
+    padding: 20px;
+    border-bottom: solid 2px #b8b8b8;
+    border-top: solid 2px #b8b8b8;
+    margin: 10 auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.nav__link:link
+{
+text-decoration: none;
+color: #363636;
+font-size: 20px;
+font-weight: bold;
+}
+
+.nav__link:visited
+{
+text-decoration: none;
+color: #858585;
+font-size: 20px;
+font-weight: bold;
+}
+
+.nav__link:hover
+{
+text-decoration: none;
+color: #df3737;
+font-size: 20px;
+font-weight: bolder;
+}
+
+.imagezeglarstwo
+{
+    margin: 50px auto;
+    width:400px; 
+   
+}
+
+.contact
+{
+    background-color: #363636;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.przycisk
+{
+    margin: 0 auto;
+    
+}
+
+.mailto:link
+{
+text-decoration: none;
+color: #f3f3f3;
+font-size: 15px;
+font-weight: bold;
+}
+
+.mailto:visited
+{
+text-decoration: none;
+color: #ffffff;
+font-size: 15px;
+font-weight: bold;
+}
+
+.mailto:hover
+{
+text-decoration: none;
+color: #df3737;
+font-size: 15px;
+font-weight: bolder;
+}
+
+.obrazekZeglarstwo
+{
+    outline: solid #fff 4px ;
+    outline-offset: -20px;
+   
+}
+
+.naglowekred
+{
+    color: rgb(250, 57, 57);
+}
+
+.naglowekblue
+{
+    color: rgb(58, 103, 250);
+}
+
+.naglowekorange
+{
+    color: #ff771c;
+}
+
+.naglowekgreen
+{
+    color: #16861c;
+}
